@@ -102,4 +102,9 @@ export const GlobalStyle = createGlobalStyle`
     letter-spacing: ${({ theme }) => theme.letterSpacing.wide};
     background-color: ${({ theme }) => theme.colour.white};
   }
+
+  img {
+    width: 100%;
+    display: block;
+  }
 `

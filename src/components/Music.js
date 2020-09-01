@@ -3,11 +3,12 @@ import { weatherObjekt } from '../api/weatherObjekt'
 // import { FaPlay } from 'react-icons/fa';
 import styled from 'styled-components'
 const StyledMusicSection = styled.section`
-   
+    display: grid;
+    grid-gap: .5rem;
    article {
     display: flex;
     align-items: center;
-
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     img {
         --img-size: 50px;
         width: var(--img-size);
@@ -19,7 +20,6 @@ const StyledMusicSection = styled.section`
             font-weight: bold;
         }
     }
-
    }
 `
 
