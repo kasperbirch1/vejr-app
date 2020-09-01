@@ -6,6 +6,9 @@ import Activities from '../components/Activities'
 import Music from '../components/Music'
 import styled from 'styled-components'
 const StyledSection = styled.section`
+  .searchbar {
+    padding: .5rem;
+  }
   padding: 1rem 0;
   display: grid;
   grid-gap: 1rem;
@@ -42,7 +45,7 @@ const IndexPage = () => {
     <>
       <SEO title="Home" />
       <StyledSection>
-        <input className="searchbar" type="text" placeholder="Search..." value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search} />
+        <input className="searchbar box-shadow-border-radius" type="text" placeholder="Search town or country... " value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search} />
         {weather.main && <WeatherContainer weather={weather} />}
         {weather.main && <Activities weather={weather} />}
         {weather.main && <Music weather={weather} />}

@@ -7,8 +7,6 @@ const StyledActivitiesSection = styled.section`
     grid-gap: .5rem;
 
     article {
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-        border-radius: .5rem;
         text-transform: capitalize;
         display: flex;
         flex-direction: column;
@@ -28,7 +26,7 @@ function Activities({ weather }) {
         <StyledActivitiesSection>
             {weatherObjekt[weather.weather[0].main].activities.map((element, index) => {
                 return (
-                    <article key={index} >
+                    <article className="box-shadow-border-radius" key={index} >
                         <img src={element.img} alt={element.title} />
                         <div>
                             <h2>{element.title}</h2>

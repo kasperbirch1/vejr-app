@@ -10,10 +10,11 @@ const StyledMusicSection = styled.section`
     align-items: center;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     img {
-        --img-size: 50px;
+        --img-size: 4rem;
         width: var(--img-size);
         height: var(--img-size);
         margin-right: .5rem;
+        border-radius: .5rem 0 0 .5rem ;
     }
     div {
         h2 {
@@ -28,7 +29,7 @@ const Music = ({ weather }) => {
         <StyledMusicSection>
             {weatherObjekt[weather.weather[0].main].music.map((element, index) => {
                 return (
-                    <article key={index} style={{ backgroundImage: `url(${element.img})` }} >
+                    <article className="box-shadow-border-radius" key={index} style={{ backgroundImage: `url(${element.img})` }} >
                         <img src={element.coverImg} alt={element.songTitle} />
                         <div>
                             <h2>{element.songTitle}</h2>
