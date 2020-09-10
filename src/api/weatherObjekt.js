@@ -224,17 +224,17 @@ export const weatherObjekt = {
         ],
         music: [
             {
-                coverImg: "",
+                coverImg: "https://cfvod.kaltura.com/p/2531481/sp/253148100/thumbnail/entry_id/1_246kirbg/version/100041/width/412/height/248",
                 songTitle: "songTitle 1",
                 artist: "artist"
             },
             {
-                coverImg: "",
+                coverImg: "https://cfvod.kaltura.com/p/2531481/sp/253148100/thumbnail/entry_id/1_246kirbg/version/100041/width/412/height/248",
                 songTitle: "songTitle 2",
                 artist: "artist"
             },
             {
-                coverImg: "",
+                coverImg: "https://cfvod.kaltura.com/p/2531481/sp/253148100/thumbnail/entry_id/1_246kirbg/version/100041/width/412/height/248",
                 songTitle: "songTitle 3",
                 artist: "artist"
             }
