@@ -8,6 +8,7 @@ import styled from 'styled-components'
 const StyledSection = styled.section`
   .searchbar {
     padding: .5rem;
+    border: 1px solid black;
   }
   padding: 1rem 0;
   display: grid;
@@ -17,6 +18,7 @@ const StyledSection = styled.section`
 const IndexPage = () => {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
+
 
   useEffect(() => {
     if (navigator.geolocation) {
@@ -45,7 +47,7 @@ const IndexPage = () => {
     <>
       <SEO title="Home" />
       <StyledSection>
-        <input className="searchbar box-shadow-border-radius" type="text" placeholder="Search town or country... " value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search} />
+        <input className="box-shadow-border-radius searchbar" type="text" placeholder="Search town or country... " value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search} />
         {weather.main && <WeatherContainer weather={weather} />}
         {weather.main && <Activities weather={weather} />}
         {weather.main && <Music weather={weather} />}

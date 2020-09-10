@@ -204,20 +204,20 @@ export const weatherObjekt = {
         icon: "☁️",
         activities: [
             {
-                img: "",
-                title: "Clouds activitie",
+                img: "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2019/07/nature-3294543_1280-photo-graphe-pixabay.jpg",
+                title: "Clouds activitie 1",
                 location: "all locations",
                 price: 0,
             },
             {
-                img: "",
-                title: "Clouds activitie",
+                img: "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2019/07/nature-3294543_1280-photo-graphe-pixabay.jpg",
+                title: "Clouds activitie 2",
                 location: "all locations",
                 price: 0,
             },
             {
-                img: "",
-                title: "Clouds activitie",
+                img: "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2019/07/nature-3294543_1280-photo-graphe-pixabay.jpg",
+                title: "Clouds activitie 3",
                 location: "all locations",
                 price: 0,
             }
@@ -225,17 +225,17 @@ export const weatherObjekt = {
         music: [
             {
                 coverImg: "",
-                songTitle: "songTitle",
+                songTitle: "songTitle 1",
                 artist: "artist"
             },
             {
                 coverImg: "",
-                songTitle: "songTitle",
+                songTitle: "songTitle 2",
                 artist: "artist"
             },
             {
                 coverImg: "",
-                songTitle: "songTitle",
+                songTitle: "songTitle 3",
                 artist: "artist"
             }
         ],
