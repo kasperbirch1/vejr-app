@@ -14,6 +14,8 @@ const StyledActivitiesSection = styled.section`
         text-align: center;
         img {
             border-radius: .5rem .5rem 0 0;
+            height: 250px;
+            object-fit: cover;
         }
         h2 {
             font-weight: bold;

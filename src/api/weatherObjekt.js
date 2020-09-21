@@ -44,19 +44,19 @@ export const weatherObjekt = {
         icon: "🌫️",
         activities: [
             {
-                img: "https://cf.bstatic.com/images/hotel/max1024x768/220/220680927.jpg",
+                img: "https://cdn1.theinertia.com/wp-content/uploads/2017/08/east-sussex-fog.jpg",
                 title: "Fog Strandtur",
                 location: "kysten / stranden",
                 price: 0,
             },
             {
-                img: "https://images.interactives.dk/istock-498375904-zn2yw_t3xRkfwd-KWXd9Lg.jpg?auto=compress&ch=Width%2CDPR&dpr=2.63&ixjsv=2.2.4&q=38&rect=0%2C0%2C0%2C0&w=430",
+                img: "https://p0.pikist.com/photos/783/151/cycle-fog-cycling-nature-landscape-away-mountain-bike-road.jpg",
                 title: "Fog cykkeltur",
                 location: "landevejen",
                 price: 0,
             },
             {
-                img: "https://www.kbhmuseer.dk/wp-content/uploads/2019/10/isbjorn_foto_henrik_sorensen-wpcf_773x435.jpg",
+                img: "https://i.pinimg.com/originals/b4/d4/87/b4d4872a8b95cc06cca9b7d86987f53d.jpg",
                 title: "Fog zoo",
                 location: "frederiksberg",
                 price: 100,
